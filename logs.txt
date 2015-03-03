@@ -1,0 +1,39 @@
+2015-03-03T01:33:33.314679+00:00 heroku[api]: Release v2 created by uber.tubers@gmail.com
+2015-03-03T01:33:33.314642+00:00 heroku[api]: Enable Logplex by uber.tubers@gmail.com
+2015-03-03T01:37:31+00:00 heroku[slug-compiler]: Slug compilation started
+2015-03-03T01:39:10.854633+00:00 heroku[api]: Scale to web=1 by uber.tubers@gmail.com
+2015-03-03T01:39:11.173890+00:00 heroku[api]: Set DATABASE_URL config vars by uber.tubers@gmail.com
+2015-03-03T01:39:11.173890+00:00 heroku[api]: Release v3 created by uber.tubers@gmail.com
+2015-03-03T01:39:11.270056+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_AMBER resource by uber.tubers@gmail.com
+2015-03-03T01:39:11.270129+00:00 heroku[api]: Release v4 created by uber.tubers@gmail.com
+2015-03-03T01:39:11.582460+00:00 heroku[api]: Deploy dd13fba by uber.tubers@gmail.com
+2015-03-03T01:39:11.582460+00:00 heroku[api]: Release v6 created by uber.tubers@gmail.com
+2015-03-03T01:39:11.488842+00:00 heroku[api]: Release v5 created by uber.tubers@gmail.com
+2015-03-03T01:39:11.488842+00:00 heroku[api]: Set LANG, RAILS_ENV, RACK_ENV, SECRET_KEY_BASE, RAILS_SERVE_STATIC_FILES config vars by uber.tubers@gmail.com
+2015-03-03T01:39:14.883689+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 36752 -e production`
+2015-03-03T01:39:19.219080+00:00 app[web.1]: [2015-03-03 01:39:19] INFO  WEBrick 1.3.1
+2015-03-03T01:39:19.219172+00:00 app[web.1]: [2015-03-03 01:39:19] INFO  ruby 2.0.0 (2014-11-13) [x86_64-linux]
+2015-03-03T01:39:19.219916+00:00 app[web.1]: [2015-03-03 01:39:19] INFO  WEBrick::HTTPServer#start: pid=3 port=36752
+2015-03-03T01:39:19.486046+00:00 heroku[web.1]: State changed from starting to up
+2015-03-03T01:40:01.711087+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-03-03T01:40:01.711083+00:00 app[web.1]: => Rails 4.2.0 application starting in production on http://0.0.0.0:36752
+2015-03-03T01:40:01.711086+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-03-03T01:40:01.711089+00:00 app[web.1]: Started GET "/" for 216.3.192.100 at 2015-03-03 01:40:01 +0000
+2015-03-03T01:40:01.827225+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-03T01:40:01.839578+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+2015-03-03T01:40:01.711075+00:00 app[web.1]: => Booting WEBrick
+2015-03-03T01:40:01.830060+00:00 heroku[router]: at=info method=GET path="/" host=afternoon-hollows-4512.herokuapp.com request_id=42379a1d-c3af-4355-9298-eaa9751b27cd fwd="216.3.192.100" dyno=web.1 connect=1ms service=184ms status=200 bytes=480
+2015-03-03T01:40:01.839036+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-03T01:40:02.113450+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=afternoon-hollows-4512.herokuapp.com request_id=be398bfb-a00a-40a3-904d-ddf817410837 fwd="216.3.192.100" dyno=web.1 connect=1ms service=5ms status=200 bytes=228
+2015-03-03T01:45:51.713604+00:00 heroku[router]: at=info method=GET path="/" host=afternoon-hollows-4512.herokuapp.com request_id=9154fd7b-32a2-4d08-b5b4-2585d0534520 fwd="216.3.192.100" dyno=web.1 connect=3ms service=8ms status=304 bytes=397
+2015-03-03T01:45:51.726773+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+2015-03-03T01:45:51.725860+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-03T01:45:51.723220+00:00 app[web.1]: Started GET "/" for 216.3.192.100 at 2015-03-03 01:45:51 +0000
+2015-03-03T01:45:51.726600+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-03T01:45:52.014283+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=afternoon-hollows-4512.herokuapp.com request_id=9c298721-159d-4c6c-9286-13ad6ffd4f61 fwd="216.3.192.100" dyno=web.1 connect=4ms service=4ms status=304 bytes=133
+2015-03-03T01:53:14.535756+00:00 heroku[router]: at=info method=GET path="/" host=afternoon-hollows-4512.herokuapp.com request_id=ff3757e2-32c4-4d03-9cae-09e7066ee531 fwd="216.3.192.100" dyno=web.1 connect=1ms service=10ms status=304 bytes=397
+2015-03-03T01:53:14.529339+00:00 app[web.1]: Started GET "/" for 216.3.192.100 at 2015-03-03 01:53:14 +0000
+2015-03-03T01:53:14.532171+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-03T01:53:14.531273+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-03T01:53:14.532363+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+2015-03-03T01:53:14.817676+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=afternoon-hollows-4512.herokuapp.com request_id=10db3445-837e-4e64-9801-7a69b402a458 fwd="216.3.192.100" dyno=web.1 connect=2ms service=6ms status=304 bytes=133
